@@ -16,7 +16,7 @@ body {
 	left: 50%;
 	transform: translate(-50%,-50%);
 	color: #fff;
-	border: 2px solid red;
+
 }
 
 .dp {
@@ -25,4 +25,39 @@ body {
 	height: 90px;
 	top: -50px;
 	left: calc(50% - 45px);
+}
+
+.form, .signin-nav {
+	position: relative;
+	top: 2em;
+}
+
+.signin-nav {
+	
+	
+}
+
+ul {
+
+}
+li {
+	
+	padding: 2em;
+	list-style: none;
+	display: inline;
+}
+
+button{
+	text-transform: uppercase;
+	padding: 0 0.5em;
+	background: transparent;
+	border: none;
+	color: #aaa;
+	font-size: large;
+	font-weight: bold;
+}
+
+button:hover {
+	border-bottom: 3px solid #1965d7;
+	color: #fff;
 }
