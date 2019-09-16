@@ -1,63 +1,102 @@
-body {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	background: url(../images/background.jpeg) no-repeat center center fixed;
-	font-family: sans-serif;
-	background-size: cover;
-}	
 
-.login-container {
-	position: absolute;
-	width: 90%;
-	height: 450px;
-	background: rgba(0, 0, 0, 0.5);
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	color: #fff;
+body{
+    font-family: 'Hind', sans-serif;
 
+}
+
+.loginBox{
+    position: relative;
+    width: 100%;
+    height: 655px;
+    margin: 0px;
+    background: #d1cfcf;
+}   
+
+.loginBox--inner{
+    position: absolute;
+    top: 12%;
+    left:31%;
+    width: 38%;
+    height: 550px;
+    background:linear-gradient(rgba(3, 28, 66,0.8),rgba(3, 28, 66, 0.8)) ,url('images/london-bus-1464576_1280.jpg') bottom center ;
 }
 
 .dp {
 	position: absolute;
 	width: 90px;
 	height: 90px;
-	top: -50px;
+	top: -48px;
 	left: calc(50% - 45px);
 }
 
-.form, .signin-nav {
-	position: relative;
-	top: 2em;
+.form{
+    padding: 50px 70px;
 }
 
-.signin-nav {
-	
-	
+.form-header{
+    padding: 5px 0;
 }
 
-ul {
-
-}
-li {
-	
-	padding: 2em;
-	list-style: none;
-	display: inline;
+.h-underline--blue{
+    border-bottom: 2px solid rgb(38, 38, 241);
+    width: 25%;  
+    padding-bottom: 0px; 
 }
 
-button{
-	text-transform: uppercase;
-	padding: 0 0.5em;
-	background: transparent;
-	border: none;
-	color: #aaa;
-	font-size: large;
-	font-weight: bold;
+.form-header h3{
+    color: #fff;
+    font-size: 26px ;
+    text-transform: uppercase;
+    font-weight: bold
 }
 
-button:hover {
-	border-bottom: 3px solid #1965d7;
-	color: #fff;
+.form .form-group label{
+    text-transform: uppercase;
+    color: rgb(196, 192, 192);
+}
+
+
+.form .form-group {
+    margin: 10px 0;
+}
+
+.form .form-group .form-control{
+    padding: 25px;
+    background: rgba(123, 130, 139, 0.3);
+    border-radius: 40px ;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.form .form-group button{
+    padding: 15px;
+    border-radius: 40px ;
+}
+
+.form .form-group span{
+    color:rgba(123, 130, 139, 0.6);
+}
+
+
+.form .form-group .form-check{
+    background:rgba(123, 130, 139, 0.6);
+}
+
+.styled-hr{
+    margin-top: 70px;
+    border-width: 2px; 
+    border-color:rgba(123, 130, 139, 0.6);
+}
+
+.bottomH{
+    color: rgba(123, 130, 139, 0.6);
+    font-size: 14px;
+}
+
+.alertUsername{
+    display: none;
+}
+
+.alertPassword{
+    display: none;
 }
