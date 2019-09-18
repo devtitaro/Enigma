@@ -1,0 +1,223 @@
+/* TEAM ENIGMA CSS */
+
+@media screen and (min-width: 900px)
+{
+body
+{
+ margin: 0;
+ padding: 0;
+ background-image: url("../images/pattern.jpg");
+ background-repeat: repeat;
+ background-size: cover;
+ background-color: #fff;
+ font-family: Tahoma, verdana, sans-serif;
+}
+
+/* BEGIN LINKS STYLING */
+a
+{
+ text-decoration: none;
+}
+
+.wrapper-2 a
+{
+ color: #ddeb14;
+ padding: 8px;
+}
+
+.cov
+{
+ background-color: rgba(0, 0, 0, 0.8);
+ padding: 20px;
+}
+/* END LINKS STYLING */
+
+/* BEGIN SESSION STYLING */
+.error
+{
+ background-color: rgba(184, 52, 48, 0.8);
+ padding: 20px;
+ color: #fff;
+ border-radius: 20px 20px 0 0;
+}
+
+.logged
+{
+ position: absolute;
+ top: 25%;
+ right: 364px;
+ background-color: rgba(11, 187, 34, 0.8);
+ padding: 20px;
+ color: #fff;
+ border-radius: 20px;
+ display: inline;
+}
+/* END SESSION STYLING */
+
+/* BEEGIN ERROR STYLING */
+.error
+{
+ background-color: rgba(184, 52, 48, 0.8);
+ padding: 20px;
+ color: #fff;
+ border-radius: 20px 20px 0 0;
+}
+
+.success
+{
+ background-color: rgba(11, 187, 34, 0.8);
+ padding: 20px;
+ color: #fff;
+ border-radius: 20px 20px 0 0;
+}
+/* END ERROR STYLING */
+
+/* MEMBER STYLING */
+.msg
+{
+ background-color: #fff;
+ padding: 20px;
+ margin: 100px auto;
+ color: #57937a;
+ border-radius: 20px;
+ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+ width: 30%;
+ text-align: center;
+}
+
+.msg-2
+{
+ background-color: rgb(47, 136, 163);
+ padding: 20px;
+ margin: -50px auto;
+ color: #fff;
+ border-radius: 20px;
+ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+ width: 50%;
+ text-align: center;
+}
+
+.msg-2 a
+{
+ color: yellow;
+}
+
+.msg-3
+{
+ background-color: rgb(211, 211, 28);
+ padding: 20px;
+ margin: 100px auto;
+ color: #000;
+ border-radius: 20px;
+ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+ width: 50%;
+ text-align: center;
+}
+/* END MEMBER STYLING */
+
+/* BEGIN WRAPPER STYLING */
+.wrapper
+{
+ background: rgb(151, 117, 117) url("../images/enigma.jpg") no-repeat center;
+ padding: 20px;
+ margin: 50px 20%;
+ margin-bottom: 0;
+ height: auto;
+ width: auto;
+ box-shadow: 0 0 8px 5px #000;
+}
+
+.wrapper-2
+{
+ background: rgb(151, 117, 117) url("../images/enigma.jpg") no-repeat top center;
+ margin: 0 20%;
+ margin-bottom: 50px;
+ color: #fff;
+ font-weight: 900;
+ text-align: center;
+ border-top: 1px solid #fff;
+ box-shadow: 0 0 8px 5px #000;
+}
+/* END WRAPPER STYLING */
+
+/* BEGIN CHAT BUBBLE STYLING */
+.chat
+{
+ width: 250px;
+ margin: 50px auto;
+ background: #b10f09;
+ padding: 20px;
+ text-align: center;
+ font-weight: bold;
+ color: #fff;
+ position: relative;
+ margin-bottom: -150px;
+ text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+ border-radius: 20px;
+}
+
+.bubble:before
+{
+ content: "";
+ width: 0px;
+ height: 0px;
+ position: absolute;
+ border-left: 10px solid transparent;
+ border-right: 10px solid #b10f09;
+ border-top: 10px solid #b10f09;
+ border-bottom: 10px solid transparent;
+ right: 150px;
+ bottom: -19px;
+}
+/* END CHAT BUBBLE STYLING */
+
+/* BEGIN FORM STYLING */
+#container
+{
+ background-image: url("../images/enigma.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ width: 500px;
+ margin: 200px auto;
+ border-radius: 20px;
+}
+
+form
+{
+ background: rgba(0, 0, 0, 0.6);
+ padding: 35px;
+ border-radius: 20px;
+ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+}
+
+input[type="text"], input[type="password"]
+{
+ background-color: rgba(255, 0, 0, 0.3);
+ padding: 15px;
+ width: 100%;
+ border: none;
+ border-radius: 30px;
+ color: #fff;
+ box-sizing: border-box;
+}
+
+input[type="submit"]
+{
+ background-color: #0465e6;;
+ padding: 15px;
+ width: 100%;
+ margin: 10px auto;
+ border: none;
+ border-radius: 30px;
+ color: #fff;
+}
+
+.mob
+{
+ display: none;
+}
+}
+/* END FORM STYLING */
+/* END TEAM ENIGMA CSS */
