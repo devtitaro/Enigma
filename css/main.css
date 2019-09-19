@@ -1,0 +1,146 @@
+/* TEAM ENIGMA CSS */
+
+body
+{
+ margin: 0;
+ padding: 0;
+ background-color: #57937a;
+}
+
+a
+{
+ color: #57937a;
+ text-decoration: none;
+}
+
+/* MEMBER STYLING */
+.msg
+{
+ background-color: #fff;
+ padding: 20px;
+ margin: 100px auto;
+ color: #57937a;
+ border-radius: 20px;
+ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+ width: 30%;
+ text-align: center;
+}
+
+.msg-2
+{
+ background-color: rgb(47, 136, 163);
+ padding: 20px;
+ margin: -50px auto;
+ margin-bottom: 0;
+ color: #fff;
+ border-radius: 20px;
+ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+ width: 50%;
+ text-align: center;
+}
+
+.msg-2 a
+{
+ color: yellow;
+}
+
+.msg-3
+{
+ background-color: rgb(211, 211, 28);
+ padding: 20px;
+ margin: 100px auto;
+ color: #000;
+ border-radius: 20px;
+ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+ width: 50%;
+ text-align: center;
+}
+/* END MEMBER STYLING */
+
+/* BEGIN WRAPPER STYLING */
+.wrapper
+{
+ background-color: #fff;
+ padding: 10px;
+ margin: 50px 20%;
+ margin-bottom: 0;
+ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+ border-radius: 20px;
+}
+
+.top
+{
+ text-align: center;
+ color: #57937a;
+ font-size: 30px;
+ font-weight: bold;
+ padding: 20px;
+}
+/* END WRAPPER STYLING */
+
+/* BEEGIN ERROR STYLING */
+.error
+{
+ background-color: rgb(184, 52, 48);
+ padding: 15px;
+ color: #fff;
+ border-radius: 20px;
+ margin-bottom: 10px;
+}
+
+.success
+{
+ background-color: rgb(11, 187, 34);
+ padding: 15px;
+ color: #fff;
+ border-radius: 20px;
+ margin-bottom: 10px;
+}
+/* END ERROR STYLING */
+
+/* BEGIN FORM STYLING */
+#container
+{
+ margin-top: -20px;
+ padding: 20px;
+}
+
+input[type="text"], input[type="password"]
+{
+ border: 1px solid #57937a;
+ padding: 20px;
+ width: 100%;
+ border-radius: 10px;
+ box-sizing: border-box;
+}
+
+input[type="submit"]
+{
+ background-color: #57937a;
+ padding: 20px;
+ width: 100%;
+ margin: 10px auto;
+ border: none;
+ border-radius: 10px;
+ color: #fff;
+}
+
+.mob
+{
+ color: #a9a9a9;
+ padding: 10px;
+ text-align: center;
+}
+/* END FORM STYLING */
+
+/* BEGIN HEADER STYLING */
+header .head
+{
+ background-color: #000;
+ padding: 20px;
+ border-bottom: 2px solid yellow;
+ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+/* END HEADER STYING */
+
+/* END TEAM ENIGMA CSS */
