@@ -32,15 +32,14 @@ $filearray = file($dbpath);
 $db = implode(" ", $filearray);
 
 // Search username to see if it exists
-// Users can have the same password but not the same username
+// Users username and password need to match
 if(preg_match("/\b{$logname}\b/i", $db) && preg_match("/\b{$logpass}\b/i", $db))
 {
  header("Location: index.php");
 
- // Create temporary cookie in user browser to help detect their login or sign up status
+ // Create temporary cookie in user browser to help detect user
  // Cookie only lasts for 1 hour
  setcookie("ucok", $logname, time() + 3600, "/");
- setcookie("pcok", $logpass, time() + 3600, "/");
 }
  else
 {
