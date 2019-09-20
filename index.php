@@ -3,7 +3,7 @@
 <head>
 <title>Enigma Homepage</title>
 <link rel="stylesheet" type="text/css" href="./css/main.css">
-<link rel="icon" type="text/x-image" href="favicon.ico">
+<link rel="icon" type="image/x-image" href="favicon.ico">
 </head>
 <body>
 <header>
